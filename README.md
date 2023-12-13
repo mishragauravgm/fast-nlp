@@ -1,8 +1,11 @@
 # Accelerating inference using Multi-threading
 
 **Here are the results for 1000 samples(the model with F1 score of 0.907 was chosen:**
+
+
 > with_concurrency = 89.19 seconds
 > without_concurrency = 137.64 seconds
+Speed-up Factor = ~1.5 times
 
 Install the requirements by using pip(assuming you already have python 3.10 installed)
 >pip install -r requirements.txt
